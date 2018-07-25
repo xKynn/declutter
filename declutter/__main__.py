@@ -59,7 +59,7 @@ def main():
         ex_ext = "None"
     while 1:
         confirm = input("Are you sure you want to declutter current directory with options?:\n" \
-                        f"Exclude Files:  {ex_files}\nExclude Extensions: {ex_ext}\nInclude Shortcuts?: {args.include_shortcuts}\nConfirm (y/n)\n")
+                        "Exclude Files:  {}\nExclude Extensions: {}\nInclude Shortcuts?: {}\nConfirm (y/n)\n".format(ex_files, ex_ext, args.include_shortcuts))
         if confirm in ['y', 'n']:
             if confirm == 'y':
                 break
