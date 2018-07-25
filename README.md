@@ -1,2 +1,20 @@
-# DeclutterFolder
-I'm real lazy with always a full desktop, this should be a good tool to just organize everything into a folder then forget about it
+# declutter
+Fast way to quickly organize cluttered files into approximate categories.  
+I personally use this to declutter my desktop where I have a bad habit of dumping stuff.  
+```
+declutter
+
+Usage:
+    declutter
+    declutter [[options] <args>...]...
+    declutter -h | --help
+
+Options:
+    -h --help                            Show help message.
+    --exclude_files <files>...           Exclude specific list of files from being decluttered.
+    --exclude_ext <exts>...              Exclude these file extensions from being decluttered.
+    --include_shortcuts                  Include shortcuts with extensions .url or .lnk to be decluttered.
+Examples:
+    declutter --exclude_files myfile.txt random.docx
+    declutter --exclude_ext gif jpg
+```
