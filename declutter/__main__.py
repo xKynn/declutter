@@ -20,7 +20,6 @@ Examples:
 import argparse
 import sys
 
-from docopt import docopt
 from os import listdir
 from os.path import isfile, join
 from pathlib import Path
