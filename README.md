@@ -1,6 +1,9 @@
 # declutter
 Fast way to quickly organize cluttered files into approximate categories.  
 I personally use this to declutter my desktop where I have a bad habit of dumping stuff.  
+### Install from pip
+`pip install -U declutter`
+### Help
 ```
 declutter
 
